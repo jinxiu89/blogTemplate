@@ -1,4 +1,43 @@
-.test {
-  color: #ffb41e;
+body {
+  background: #f5f5f5;
+}
+.navbar {
+  background: #fff;
+}
+.ad {
+  padding-top: 50px;
+  margin: 20px 0;
+}
+.ad .ad-item {
+  height: 60px;
+  background: #fff;
+}
+.ad .col-xs-12,
+.ad .col-sm-4 {
+  padding-right: 5px;
+  padding-left: 5px;
+}
+.banner,
+.main {
+  margin: 20px 0;
+}
+.banner .ad-item,
+.main .ad-item {
+  height: 60px;
+  background: #fff;
+}
+.banner .col-xs-12,
+.main .col-xs-12,
+.banner .col-sm-4,
+.main .col-sm-4 {
+  padding-right: 5px;
+  padding-left: 5px;
+}
+.footer {
+  background: rgba(0, 0, 0, 0.82);
+}
+.footer .b-content {
+  padding: 20px 0;
+  color: #fff;
 }
 /*# sourceMappingURL=common.css.map */

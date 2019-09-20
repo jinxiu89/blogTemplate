@@ -7,8 +7,8 @@
     <meta name="author" content="">
     <link rel="icon" href="">
     <!--import bootstrap-->
-    <link rel="stylesheet" href="https://cdn.bootcss.com/bootstrap/4.0.0/css/bootstrap.min.css"
-          integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/css/bootstrap.min.css"
+          integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
     <script src="https://cdn.jsdelivr.net/npm/html5shiv@3.7.3/dist/html5shiv.min.js"></script>
@@ -19,11 +19,99 @@
     <title>Title</title>
 </head>
 <body>
-<div class="navbar navbar-default">
+<div class="navbar navbar-fixed-top site-navbar">
     <div class="container">
-        <div class="test">hello world</div>
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapse"
+                    aria-expanded="false">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#">Wones</a>
+        </div>
+        <div class="collapse navbar-collapse" id="collapse">
+            <ul class="nav navbar-nav">
+                <li><a href="#">首页</a></li>
+                <li><a href="#">Linux</a></li>
+                <li><a href="#">Python</a></li>
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href="">登陆</a></li>
+            </ul>
+            <ul class="nav navbar-nav ">
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
+                       aria-expanded="false">Dropdown <span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="#">Action</a></li>
+                        <li><a href="#">Another action</a></li>
+                        <li><a href="#">Something else here</a></li>
+                        <li role="separator" class="divider"></li>
+                        <li><a href="#">Separated link</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
     </div>
 </div>
+<section class="ad">
+    <div class="container ">
+        <div class="row">
+            <div class="col-xs-12 col-sm-4"><div class="ad-item">.col-xs-6 .col-sm-4</div></div>
+            <div class="col-xs-12 col-sm-4"><div class="ad-item">.col-xs-6 .col-sm-4</div></div>
+            <div class="col-xs-12 col-sm-4"><div class="ad-item">.col-xs-6 .col-sm-4</div></div>
+        </div>
+    </div>
+</section>
+<section class="banner">
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12 col-sm-9"><div class="ad-item">.col-xs-6 .col-sm-4</div></div>
+            <div class="col-xs-12 col-sm-3"><div class="ad-item">.col-xs-6 .col-sm-4</div></div>
+        </div>
+    </div>
+</section>
+<section class="main">
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12 col-sm-9"><div class="ad-item">.col-xs-6 .col-sm-4</div></div>
+            <div class="col-xs-12 col-sm-3"><div class="ad-item">.col-xs-6 .col-sm-4</div></div>
+        </div>
+    </div>
+</section>
+<section class="footer">
+    <div class="container">
+        <div class="row b-content">
+            <dl class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
+                <dt>权益</dt>
+                <dd>许可协议：<a rel="nofollow" href="https://creativecommons.org/licenses/by-nc/4.0/deed.zh">CC BY-NC 4.0</a></dd>
+                <dd>版权所有：© 2014-2019 baijunyao.com</dd>
+                <dd>联系邮箱：<a href="mailto:baijunyao@baijunyao.com">baijunyao@baijunyao.com</a></dd>
+                <dd>ICP 备案：豫ICP备14009546号-3</dd>
+            </dl>
+
+            <dl class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
+                <dt>架构</dt>
+                <dd>项目名称：<a rel="nofollow" href="https://github.com/baijunyao/laravel-bjyblog" target="_blank">laravel-bjyblog</a></dd>
+                <dd>版本分支：v5.8.11.3-develop</dd>
+                <dd>项目作者：<a href="https://baijunyao.com">白俊遥</a></dd>
+                <dd>主题名称：<a rel="nofollow" href="https://github.com/baijunyao/blog-theme-blueberry">blog-theme-blueberry</a></dd>
+                <dd>主题作者：<a href="https://baijunyao.com">白俊遥</a></dd>
+            </dl>
+
+            <dl class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+                <dt>统计</dt>
+                <dd>文章总数：187</dd>
+                <dd>评论总数：4310</dd>
+                <dd>登录用户：3822</dd>
+                <dd>随言碎语：41</dd>
+            </dl>
+        </div>
+    </div>
+    <a class="go-top fa fa-angle-up animated jello" href="javascript:;"></a>
+</section>
 </body>
 <script src="https://cdn.bootcss.com/jquery/3.2.1/jquery.slim.min.js"
         integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
@@ -31,7 +119,7 @@
 <script src="https://cdn.bootcss.com/popper.js/1.12.9/umd/popper.min.js"
         integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
         crossorigin="anonymous"></script>
-<script src="https://cdn.bootcss.com/bootstrap/4.0.0/js/bootstrap.min.js"
-        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/js/bootstrap.min.js"
+        integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
         crossorigin="anonymous"></script>
 </html>
