@@ -5,21 +5,15 @@ body {
   background: #fff;
 }
 .ad {
-  padding-top: 50px;
-  margin: 20px 0;
+  padding-top: 70px;
 }
-.ad .ad-item {
+.ad .col-xs-12 .ad-item,
+.ad .col-sm-4 .ad-item {
   height: 60px;
-  background: #fff;
 }
-.ad .col-xs-12,
-.ad .col-sm-4 {
+.ng-navbar .col-xs-12 {
   padding-right: 5px;
   padding-left: 5px;
-}
-.banner,
-.main {
-  margin: 20px 0;
 }
 .banner .ad-item,
 .main .ad-item {
