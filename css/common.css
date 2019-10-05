@@ -1,22 +1,60 @@
 body {
   background: #f5f5f5;
 }
+.icon-bar {
+  background-color: #337ab7;
+}
 .navbar {
-  background: #fff;
+  background: #286090;
+}
+.navbar a {
+  color: #d6ecff;
+}
+.navbar a:hover {
+  background-color: #1a3b58 !important;
+  border-color: #337ab7;
+}
+.navbar .nav .open > a,
+.navbar .nav .open > a:focus,
+.navbar .nav .open > a:hover {
+  background-color: #1a3b58 !important;
+  border-color: #337ab7;
 }
 .ad {
   padding-top: 70px;
 }
+.ad .col-xs-12,
+.ad .col-sm-4 {
+  padding-left: 10px;
+  padding-right: 10px;
+}
 .ad .col-xs-12 .ad-item,
 .ad .col-sm-4 .ad-item {
+  margin-bottom: 20px;
+  padding: 10px;
   height: 60px;
+  background: #fff;
 }
 .ng-navbar .col-xs-12 {
-  padding-right: 5px;
-  padding-left: 5px;
+  padding-right: 10px;
+  padding-left: 10px;
 }
-.banner .ad-item,
-.main .ad-item {
+.ng-navbar .col-xs-12 .navbar-item {
+  margin-bottom: 20px;
+  padding: 10px;
+  height: 40px;
+  background: #fff;
+}
+.banner .banner-item,
+.main .banner-item {
+  padding: 10px;
+  height: 60px;
+  background: #fff;
+}
+.banner .main-item,
+.main .main-item {
+  padding: 10px;
+  margin-bottom: 20px;
   height: 60px;
   background: #fff;
 }
@@ -24,8 +62,9 @@ body {
 .main .col-xs-12,
 .banner .col-sm-4,
 .main .col-sm-4 {
-  padding-right: 5px;
-  padding-left: 5px;
+  padding-right: 10px;
+  padding-left: 10px;
+  margin-bottom: 20px;
 }
 .footer {
   background: rgba(0, 0, 0, 0.82);
